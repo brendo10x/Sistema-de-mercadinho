@@ -1,0 +1,1211 @@
+2014-06-12 14:17:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/.css
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:17:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery.validate.msg-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:17:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery-ui-datapiker-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:18:08 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+',
+  'enabled' => true,
+)
+Request URL: /mercadinho/
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\wamp\www\mercadinho\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(3471): ConnectionManager::getDataSource('default')
+#3 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#4 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(3493): Model->setSource('configs')
+#5 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2897): Model->getDataSource()
+#6 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2869): Model->_readDataSource('first', Array)
+#7 D:\wamp\www\mercadinho\app\Model\Config.php(59): Model->find('first')
+#8 D:\wamp\www\mercadinho\app\Controller\AppController.php(116): Config->obterLinguagem()
+#9 D:\wamp\www\mercadinho\app\Controller\AppController.php(55): AppController->configLinguagem()
+#10 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#11 D:\wamp\www\mercadinho\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#12 D:\wamp\www\mercadinho\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#13 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#14 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#15 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-06-12 14:18:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/.css
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:18:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery.validate.msg-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:18:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery-ui-datapiker-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:18:37 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+',
+  'enabled' => true,
+)
+Request URL: /mercadinho/
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\wamp\www\mercadinho\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(3471): ConnectionManager::getDataSource('default')
+#3 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#4 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(3493): Model->setSource('configs')
+#5 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2897): Model->getDataSource()
+#6 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2869): Model->_readDataSource('first', Array)
+#7 D:\wamp\www\mercadinho\app\Model\Config.php(59): Model->find('first')
+#8 D:\wamp\www\mercadinho\app\Controller\AppController.php(116): Config->obterLinguagem()
+#9 D:\wamp\www\mercadinho\app\Controller\AppController.php(55): AppController->configLinguagem()
+#10 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#11 D:\wamp\www\mercadinho\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#12 D:\wamp\www\mercadinho\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#13 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#14 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#15 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-06-12 14:18:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery-ui-datapiker-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:18:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery.validate.msg-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:18:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/.css
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:18:49 Error: [MissingControllerException] Controller class Pdo.--constructController could not be found.
+Exception Attributes: array (
+  'class' => 'Pdo.--constructController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/pdo.--construct
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:18:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/.css
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:18:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery-ui-datapiker-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:18:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery.validate.msg-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:18:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery-ui-datapiker-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:19:05 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+',
+  'enabled' => true,
+)
+Request URL: /mercadinho/
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\wamp\www\mercadinho\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(3471): ConnectionManager::getDataSource('default')
+#3 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#4 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(3493): Model->setSource('configs')
+#5 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2897): Model->getDataSource()
+#6 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2869): Model->_readDataSource('first', Array)
+#7 D:\wamp\www\mercadinho\app\Model\Config.php(59): Model->find('first')
+#8 D:\wamp\www\mercadinho\app\Controller\AppController.php(116): Config->obterLinguagem()
+#9 D:\wamp\www\mercadinho\app\Controller\AppController.php(55): AppController->configLinguagem()
+#10 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#11 D:\wamp\www\mercadinho\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#12 D:\wamp\www\mercadinho\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#13 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#14 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#15 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-06-12 14:19:11 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+',
+  'enabled' => true,
+)
+Request URL: /mercadinho/
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\wamp\www\mercadinho\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(3471): ConnectionManager::getDataSource('default')
+#3 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#4 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(3493): Model->setSource('configs')
+#5 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2897): Model->getDataSource()
+#6 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2869): Model->_readDataSource('first', Array)
+#7 D:\wamp\www\mercadinho\app\Model\Config.php(59): Model->find('first')
+#8 D:\wamp\www\mercadinho\app\Controller\AppController.php(116): Config->obterLinguagem()
+#9 D:\wamp\www\mercadinho\app\Controller\AppController.php(55): AppController->configLinguagem()
+#10 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#11 D:\wamp\www\mercadinho\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#12 D:\wamp\www\mercadinho\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#13 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#14 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#15 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-06-12 14:19:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery.validate.msg-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:19:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/.css
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:19:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery-ui-datapiker-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:19:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery-ui-datapiker-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:19:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/.css
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:19:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery.validate.msg-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:21:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Usuario.email' in 'where clause'
+Request URL: /mercadinho/usuarios/login
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Usuario...', Array)
+#2 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Usuario...', Array, Array)
+#3 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(1076): DboSource->fetchAll('SELECT `Usuario...', false)
+#4 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2897): DboSource->read(Object(Usuario), Array)
+#5 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2869): Model->_readDataSource('first', Array)
+#6 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(597): Model->find('first', Array)
+#7 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(800): DboSource->query('findByEmail', Array, Object(Usuario))
+#8 D:\wamp\www\mercadinho\app\Model\Usuario.php(34): Model->__call('findByEmail', Array)
+#9 D:\wamp\www\mercadinho\app\Model\Usuario.php(34): Usuario->findByEmail('')
+#10 D:\wamp\www\mercadinho\app\Controller\UsuariosController.php(59): Usuario->validaLogin(Array)
+#11 [internal function]: UsuariosController->login()
+#12 D:\wamp\www\mercadinho\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#13 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#15 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-06-12 14:21:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery.validate.msg-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:21:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/.css
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:21:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery-ui-datapiker-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:21:07 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /mercadinho/usuarios/img/avatar-mini.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-12 14:21:08 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /mercadinho/usuarios/img/avatar-mini.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-12 14:21:21 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Usuario.email' in 'where clause'
+Request URL: /mercadinho/usuarios/login
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Usuario...', Array)
+#2 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Usuario...', Array, Array)
+#3 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(1076): DboSource->fetchAll('SELECT `Usuario...', false)
+#4 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2897): DboSource->read(Object(Usuario), Array)
+#5 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2869): Model->_readDataSource('first', Array)
+#6 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(597): Model->find('first', Array)
+#7 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(800): DboSource->query('findByEmail', Array, Object(Usuario))
+#8 D:\wamp\www\mercadinho\app\Model\Usuario.php(34): Model->__call('findByEmail', Array)
+#9 D:\wamp\www\mercadinho\app\Model\Usuario.php(34): Usuario->findByEmail('')
+#10 D:\wamp\www\mercadinho\app\Controller\UsuariosController.php(59): Usuario->validaLogin(Array)
+#11 [internal function]: UsuariosController->login()
+#12 D:\wamp\www\mercadinho\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#13 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#15 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-06-12 14:21:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery.validate.msg-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:21:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/.css
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:21:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery-ui-datapiker-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:21:21 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /mercadinho/usuarios/img/avatar-mini.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-12 14:21:22 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /mercadinho/usuarios/img/avatar-mini.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-12 14:22:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Usuario.email' in 'where clause'
+Request URL: /mercadinho/usuarios/login
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Usuario...', Array)
+#2 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Usuario...', Array, Array)
+#3 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(1076): DboSource->fetchAll('SELECT `Usuario...', false)
+#4 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2897): DboSource->read(Object(Usuario), Array)
+#5 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2869): Model->_readDataSource('first', Array)
+#6 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(597): Model->find('first', Array)
+#7 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(800): DboSource->query('findByEmail', Array, Object(Usuario))
+#8 D:\wamp\www\mercadinho\app\Model\Usuario.php(34): Model->__call('findByEmail', Array)
+#9 D:\wamp\www\mercadinho\app\Model\Usuario.php(34): Usuario->findByEmail('')
+#10 D:\wamp\www\mercadinho\app\Controller\UsuariosController.php(59): Usuario->validaLogin(Array)
+#11 [internal function]: UsuariosController->login()
+#12 D:\wamp\www\mercadinho\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#13 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#15 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-06-12 14:22:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/.css
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:22:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery-ui-datapiker-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:22:10 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /mercadinho/usuarios/img/avatar-mini.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-12 14:22:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery.validate.msg-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:22:10 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /mercadinho/usuarios/img/avatar-mini.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-12 14:23:08 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Usuario.email' in 'where clause'
+Request URL: /mercadinho/usuarios/login
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Usuario...', Array)
+#2 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Usuario...', Array, Array)
+#3 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(1076): DboSource->fetchAll('SELECT `Usuario...', false)
+#4 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2897): DboSource->read(Object(Usuario), Array)
+#5 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2869): Model->_readDataSource('first', Array)
+#6 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(597): Model->find('first', Array)
+#7 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(800): DboSource->query('findByEmail', Array, Object(Usuario))
+#8 D:\wamp\www\mercadinho\app\Model\Usuario.php(34): Model->__call('findByEmail', Array)
+#9 D:\wamp\www\mercadinho\app\Model\Usuario.php(34): Usuario->findByEmail('brendo7x@live.c...')
+#10 D:\wamp\www\mercadinho\app\Controller\UsuariosController.php(59): Usuario->validaLogin(Array)
+#11 [internal function]: UsuariosController->login()
+#12 D:\wamp\www\mercadinho\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#13 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#15 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-06-12 14:23:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/.css
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:23:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery-ui-datapiker-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:23:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery.validate.msg-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:23:08 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /mercadinho/usuarios/img/avatar-mini.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-12 14:23:08 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /mercadinho/usuarios/img/avatar-mini.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-12 14:30:19 Error: [MissingControllerException] Controller class ProprietarioController could not be found.
+Exception Attributes: array (
+  'class' => 'ProprietarioController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/Proprietario/novo
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:30:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/.css
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:30:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery.validate.msg-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:30:20 Error: [MissingControllerException] Controller class ProprietarioController could not be found.
+Exception Attributes: array (
+  'class' => 'ProprietarioController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/Proprietario/img/avatar-mini.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:30:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery-ui-datapiker-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:30:27 Error: [MissingActionException] Action ProprietariosController::novo() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProprietariosController',
+  'action' => 'novo',
+)
+Request URL: /mercadinho/Proprietarios/novo
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProprietariosController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-12 14:30:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/.css
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:30:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery.validate.msg-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:30:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery-ui-datapiker-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:30:27 Error: [MissingActionException] Action ProprietariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProprietariosController',
+  'action' => 'img',
+)
+Request URL: /mercadinho/Proprietarios/img/avatar-mini.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProprietariosController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-12 14:30:27 Error: [MissingActionException] Action ProprietariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProprietariosController',
+  'action' => 'img',
+)
+Request URL: /mercadinho/Proprietarios/img/avatar-mini.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProprietariosController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-12 14:33:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/img/uploads/vendedor/138781448952b85e59378fd.jpeg
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:39:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/img/logo-sistema.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:39:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/img/logo-sistema.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:39:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery-ui-datapiker-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:39:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/.css
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:39:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery.validate.msg-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:39:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/img/img/avatar-mini.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:39:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/img/logo-sistema.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:39:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery.validate.msg-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:39:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery-ui-datapiker-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:39:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/.css
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:39:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/img/img/avatar-mini.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:39:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/img/uploads/logo-sistema.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:39:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/img/uploads/logo-sistema.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:39:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery.validate.msg-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:39:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/.css
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:39:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/js/jquery-ui-datapiker-.js
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:39:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/img/uploads/img/avatar-mini.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:40:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/img/uploads/vendedor/138781448952b85e59378fd.jpeg
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:42:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/img/uploads/vendedor/138781448952b85e59378fd.jpeg
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:42:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/img/uploads/vendedor/138781448952b85e59378fd.jpeg
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:50:03 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/index.html
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:50:06 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/index.html
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:56:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:58:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:58:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/images/ui-bg_glass_55_fbf9ee_1x400.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:58:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 14:58:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/images/ui-bg_glass_75_dadada_1x400.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 15:00:41 Error: [MissingTableException] Table configs_boletos for model ConfigBoleto was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'configs_boletos',
+  'class' => 'ConfigBoleto',
+  'ds' => 'default',
+)
+Request URL: /mercadinho/configsBoletos/configuracaoBoleto
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(3493): Model->setSource('configs_boletos')
+#1 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2897): Model->getDataSource()
+#2 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2869): Model->_readDataSource('all', Array)
+#3 D:\wamp\www\mercadinho\app\Model\ConfigBoleto.php(18): Model->find('all')
+#4 D:\wamp\www\mercadinho\app\Controller\ConfigsBoletosController.php(106): ConfigBoleto->listaDeConfigBoleto()
+#5 [internal function]: ConfigsBoletosController->configuracaoBoleto()
+#6 D:\wamp\www\mercadinho\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ConfigsBoletosController), Array)
+#7 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ConfigsBoletosController), Object(CakeRequest), Object(CakeResponse))
+#9 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-06-12 15:10:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Venda.data' in 'field list'
+Request URL: /mercadinho/relatorios/relatorios_vendas
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Venda`....', Array)
+#2 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Venda`....', Array, Array)
+#3 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(1076): DboSource->fetchAll('SELECT `Venda`....', false)
+#4 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2897): DboSource->read(Object(Venda), Array)
+#5 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2869): Model->_readDataSource('all', Array)
+#6 D:\wamp\www\mercadinho\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 D:\wamp\www\mercadinho\lib\Cake\Controller\Controller.php(1079): PaginatorComponent->paginate('Venda', Array, Array)
+#8 D:\wamp\www\mercadinho\app\Controller\RelatoriosController.php(195): Controller->paginate('Venda')
+#9 [internal function]: RelatoriosController->relatorios_vendas()
+#10 D:\wamp\www\mercadinho\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RelatoriosController), Array)
+#11 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(RelatoriosController), Object(CakeRequest), Object(CakeResponse))
+#13 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-12 15:18:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/img/codigoBarras/231312313213.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 15:19:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/img/codigoBarras/231312313213.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 15:20:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/img/codigoBarras/231312313213.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 15:21:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/img/codigoBarras/231312313213.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 15:21:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/img/codigoBarras/231312313213.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 15:21:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/img/codigoBarras/231312313213.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 15:22:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/img/codigoBarras/231312313213.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 15:24:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/img/codigoBarras/231312313213.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 15:24:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/img/codigoBarras/231312313213.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 15:26:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/images/ui-bg_glass_65_ffffff_1x400.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 15:31:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 15:31:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 15:31:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 15:31:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/images/ui-bg_glass_55_fbf9ee_1x400.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 15:31:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/images/ui-bg_glass_75_dadada_1x400.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 15:31:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mercadinho/css/images/ui-bg_glass_65_ffffff_1x400.png
+Stack Trace:
+#0 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-12 15:42:16 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p_v.quantidade' in 'field list'
+Request URL: /mercadinho/relatorios/relatorios_produtos
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Produto...', Array)
+#2 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Produto...', Array, Array)
+#3 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(1076): DboSource->fetchAll('SELECT `Produto...', false)
+#4 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2897): DboSource->read(Object(Produto), Array)
+#5 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2869): Model->_readDataSource('all', Array)
+#6 D:\wamp\www\mercadinho\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 D:\wamp\www\mercadinho\lib\Cake\Controller\Controller.php(1079): PaginatorComponent->paginate('Produto', Array, Array)
+#8 D:\wamp\www\mercadinho\app\Controller\RelatoriosController.php(281): Controller->paginate('Produto')
+#9 [internal function]: RelatoriosController->relatorios_produtos()
+#10 D:\wamp\www\mercadinho\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RelatoriosController), Array)
+#11 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(RelatoriosController), Object(CakeRequest), Object(CakeResponse))
+#13 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-12 15:54:16 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`banco-mercadinho-sistema`.`vendas`, CONSTRAINT `fk_venda_cliente1` FOREIGN KEY (`cliente_id`) REFERENCES `clientes` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /mercadinho/clientes/excluir/1
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('DELETE `Cliente...', Array)
+#2 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\Database\Mysql.php(440): DboSource->execute('DELETE `Cliente...')
+#3 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2586): Mysql->delete(Object(Cliente), Array)
+#4 D:\wamp\www\mercadinho\app\Model\Cliente.php(56): Model->delete('1')
+#5 D:\wamp\www\mercadinho\app\Controller\ClientesController.php(255): Cliente->excluir_cliente('1')
+#6 [internal function]: ClientesController->excluir('1')
+#7 D:\wamp\www\mercadinho\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#8 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#10 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-12 15:54:20 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`banco-mercadinho-sistema`.`vendas`, CONSTRAINT `fk_venda_cliente1` FOREIGN KEY (`cliente_id`) REFERENCES `clientes` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /mercadinho/clientes/excluir/1
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('DELETE `Cliente...', Array)
+#2 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\Database\Mysql.php(440): DboSource->execute('DELETE `Cliente...')
+#3 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2586): Mysql->delete(Object(Cliente), Array)
+#4 D:\wamp\www\mercadinho\app\Model\Cliente.php(56): Model->delete('1')
+#5 D:\wamp\www\mercadinho\app\Controller\ClientesController.php(255): Cliente->excluir_cliente('1')
+#6 [internal function]: ClientesController->excluir('1')
+#7 D:\wamp\www\mercadinho\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#8 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#10 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-12 15:54:35 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`banco-mercadinho-sistema`.`produtos_vendidos`, CONSTRAINT `fk_produtos_vendidos_produtos1` FOREIGN KEY (`produto_id`) REFERENCES `produtos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /mercadinho/fornecedores/excluir_selecionados
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('DELETE `Produto...', Array)
+#2 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\Database\Mysql.php(440): DboSource->execute('DELETE `Produto...')
+#3 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2586): Mysql->delete(Object(Produto), Array)
+#4 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2645): Model->delete('1')
+#5 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2566): Model->_deleteDependent('1', true)
+#6 D:\wamp\www\mercadinho\app\Model\Fornecedor.php(69): Model->delete('1', true)
+#7 D:\wamp\www\mercadinho\app\Controller\FornecedoresController.php(267): Fornecedor->excluir_fornecedor('1')
+#8 [internal function]: FornecedoresController->excluir_selecionados()
+#9 D:\wamp\www\mercadinho\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FornecedoresController), Array)
+#10 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(FornecedoresController), Object(CakeRequest), Object(CakeResponse))
+#12 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-06-12 15:54:38 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`banco-mercadinho-sistema`.`produtos_vendidos`, CONSTRAINT `fk_produtos_vendidos_produtos1` FOREIGN KEY (`produto_id`) REFERENCES `produtos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /mercadinho/fornecedores/excluir_selecionados
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('DELETE `Produto...', Array)
+#2 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\Database\Mysql.php(440): DboSource->execute('DELETE `Produto...')
+#3 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2586): Mysql->delete(Object(Produto), Array)
+#4 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2645): Model->delete('1')
+#5 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2566): Model->_deleteDependent('1', true)
+#6 D:\wamp\www\mercadinho\app\Model\Fornecedor.php(69): Model->delete('1', true)
+#7 D:\wamp\www\mercadinho\app\Controller\FornecedoresController.php(267): Fornecedor->excluir_fornecedor('1')
+#8 [internal function]: FornecedoresController->excluir_selecionados()
+#9 D:\wamp\www\mercadinho\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FornecedoresController), Array)
+#10 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(FornecedoresController), Object(CakeRequest), Object(CakeResponse))
+#12 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-06-12 15:54:52 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`banco-mercadinho-sistema`.`produtos_vendidos`, CONSTRAINT `fk_produtos_vendidos_produtos1` FOREIGN KEY (`produto_id`) REFERENCES `produtos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /mercadinho/Produtos/excluir_selecionados
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('DELETE `Produto...', Array)
+#2 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\Database\Mysql.php(440): DboSource->execute('DELETE `Produto...')
+#3 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2586): Mysql->delete(Object(Produto), Array)
+#4 D:\wamp\www\mercadinho\app\Model\Produto.php(77): Model->delete('1')
+#5 D:\wamp\www\mercadinho\app\Controller\ProdutosController.php(335): Produto->excluir_produto('1')
+#6 [internal function]: ProdutosController->excluir_selecionados()
+#7 D:\wamp\www\mercadinho\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosController), Array)
+#8 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosController), Object(CakeRequest), Object(CakeResponse))
+#10 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-12 15:55:14 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`banco-mercadinho-sistema`.`clientes`, CONSTRAINT `fk_cliente_endereco1` FOREIGN KEY (`endereco_id`) REFERENCES `enderecos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /mercadinho/vendedores/excluir_selecionados
+Stack Trace:
+#0 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('DELETE `Enderec...', Array)
+#2 D:\wamp\www\mercadinho\lib\Cake\Model\Datasource\Database\Mysql.php(440): DboSource->execute('DELETE `Enderec...')
+#3 D:\wamp\www\mercadinho\lib\Cake\Model\Model.php(2586): Mysql->delete(Object(Endereco), Array)
+#4 D:\wamp\www\mercadinho\app\Model\Endereco.php(48): Model->delete('1')
+#5 D:\wamp\www\mercadinho\app\Model\Vendedor.php(70): Endereco->excluir(Array)
+#6 D:\wamp\www\mercadinho\app\Controller\VendedoresController.php(260): Vendedor->excluir_vendedor('1')
+#7 [internal function]: VendedoresController->excluir_selecionados()
+#8 D:\wamp\www\mercadinho\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VendedoresController), Array)
+#9 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\wamp\www\mercadinho\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VendedoresController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\wamp\www\mercadinho\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}

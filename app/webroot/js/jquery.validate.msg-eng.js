@@ -1,0 +1,23 @@
+  jQuery.extend(jQuery.validator.messages, {
+    validaCNPJ: "Please provide a valid CNPJ.",
+    validaCPF: "Please provide a valid CPF.",
+    emailSeExiste: "Email is already in use.",
+    CPFouCNPJseExiste: "Already in use.",
+    required: "This field is required.",
+    remote: "Please correct this field.",
+    email: "Please provide a valid email address.",
+    url: "Please provide a valid URL.",
+    date: "Please provide a valid date.",
+    dateISO: "Please provide a valid date (ISO).",
+    number: "Please provide a valid number.",
+    digits: "Please provide only digits.",
+    creditcard: "Please provide a valid credit card.",
+    equalTo: "Please provide the same value again.",
+    accept: "Please provide a value with a valid extension.",
+    maxlength: jQuery.validator.format("Please provide no more than {0} characters."),
+    minlength: jQuery.validator.format("Please provide at least {0} characters."),
+    rangelength: jQuery.validator.format("Please enter a value between {0} and {1} characters long."),
+    range: jQuery.validator.format("Please enter a value between {0} and {1}."),
+    max: jQuery.validator.format("Please provide a lower or equal to {0} value."),
+    min: jQuery.validator.format("Please provide a greater than or equal to {0} value.")
+});

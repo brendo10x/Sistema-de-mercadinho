@@ -1,0 +1,1543 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mercadinho São Miguel\n"
+"POT-Creation-Date: 2014-01-21 08:41-0300\n"
+"PO-Revision-Date: 2014-01-21 08:41-0300\n"
+"Last-Translator: \n"
+"Language-Team: Brendo Felipe <brendo7x@live.com>\n"
+"Language: Inglês\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: D:\\Local WEB\\wamp\\www\\mercadinho\\app\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Controller/AppController.php:85
+msgid "Falha ao entrar no sistema, infome um email e senha válidos"
+msgstr "Failure to enter the system, infome an email and password valid"
+
+#: Controller/AppController.php:88
+msgid "Acesso restrito, por favor entre com email e senha"
+msgstr "Restricted access, please enter email address and password"
+
+#: Controller/ClientesController.php:119
+msgid "Cliente cadastrado"
+msgstr "Client registered"
+
+#: Controller/ClientesController.php:128
+#: View/Elements/scriptAutocompleteCliente.ctp:52
+msgid "Adicionar cliente"
+msgstr "Add Client"
+
+#: Controller/ClientesController.php:210 View/Clientes/editar.ctp:13
+msgid "Listar clientes"
+msgstr "List customers"
+
+#: Controller/ClientesController.php:245
+#: View/Relatorios/relatorios_clientes.ctp:145 View/Vendas/visualizar.ctp:26
+msgid "Cliente"
+msgstr "Customer"
+
+#: Controller/ClientesController.php:265
+#: Controller/FornecedoresController.php:246
+#: Controller/ProdutosController.php:314 Controller/VendasController.php:280
+#: Controller/VendedoresController.php:240
+msgid "Exclusão concluída"
+msgstr "Complete exclusion"
+
+#: Controller/ClientesController.php:291
+#: Controller/FornecedoresController.php:272
+#: Controller/ProdutosController.php:340
+#: Controller/VendedoresController.php:265
+msgid "Exclusões concluídas"
+msgstr "Completed exclusions"
+
+#: Controller/ClientesController.php:299
+#: Controller/FornecedoresController.php:280
+#: Controller/ParcelasController.php:213 Controller/ProdutosController.php:348
+#: Controller/VendasController.php:315 Controller/VendedoresController.php:273
+msgid "Selecione pelo menos uma item na checkbox"
+msgstr "Select at least one item in the checkbox"
+
+#: Controller/ClientesController.php:333
+msgid "Cliente atualizado"
+msgstr "Updated Client"
+
+#: Controller/ClientesController.php:363
+msgid "Atualizar cliente"
+msgstr "Update client"
+
+#: Controller/ConfigsBoletosController.php:100
+msgid "Configuração de boleto atualizado"
+msgstr "Configuration billet updated"
+
+#: Controller/ConfigsBoletosController.php:110
+msgid "Configuração de boleto"
+msgstr "Configuration billet"
+
+#: Controller/ConfigsController.php:87
+msgid "Configuração atualizada"
+msgstr "Updated configuration"
+
+#: Controller/ConfigsController.php:101
+msgid "Configuração do sistema"
+msgstr "System configuration"
+
+#: Controller/FinanceirosController.php:79
+msgid "Operação realizada"
+msgstr "operation performed"
+
+#: Controller/FinanceirosController.php:118
+#: View/Layouts/partes/sidebar.ctp:116
+msgid "Financeiro"
+msgstr "Financial"
+
+#: Controller/FornecedoresController.php:101
+msgid "Fornecedor cadastrado"
+msgstr "Registered supplier"
+
+#: Controller/FornecedoresController.php:110
+#: View/Elements/scriptAutocompleteFornecedor.ctp:54
+msgid "Adicionar fornecedor"
+msgstr "Add supplier"
+
+#: Controller/FornecedoresController.php:191 View/Fornecedores/editar.ctp:10
+msgid "Listar fornecedores"
+msgstr "List suppliers"
+
+#: Controller/FornecedoresController.php:226 View/Produtos/editar.ctp:79
+#: View/Produtos/novo.ctp:75 View/Produtos/visualizar.ctp:46
+msgid "Fornecedor"
+msgstr "Provider"
+
+#: Controller/FornecedoresController.php:314
+msgid "Fornecedor atualizado"
+msgstr "Supplier upgraded"
+
+#: Controller/FornecedoresController.php:344
+msgid "Atualizar fornecedor"
+msgstr "Update supplier"
+
+#: Controller/PagesController.php:79 View/Layouts/partes/sidebar.ctp:13
+msgid "Início"
+msgstr "Home"
+
+#: Controller/ParcelasController.php:154
+msgid "Parcelas desta venda"
+msgstr "Portions of this sale"
+
+#: Controller/ParcelasController.php:158 Controller/VendasController.php:221
+msgid "Listar vendas"
+msgstr "Sales list"
+
+#: Controller/ParcelasController.php:181
+msgid "Parcela paga"
+msgstr "Installment paid"
+
+#: Controller/ParcelasController.php:205
+msgid "Parcelas pagas"
+msgstr "Installments paid"
+
+#: Controller/PermissoesController.php:61
+msgid "Permissões atualizadas"
+msgstr "Updated permissions"
+
+#: Controller/PermissoesController.php:72
+msgid "Permissões de usuário"
+msgstr "User permissions"
+
+#: Controller/ProdutosController.php:117
+msgid "Produto cadastrado"
+msgstr "Registered product"
+
+#: Controller/ProdutosController.php:123
+#: View/Elements/scriptAutocompleteProdutoEcalcVenda.ctp:118
+msgid "Adicionar produto"
+msgstr "Add Product"
+
+#: Controller/ProdutosController.php:205
+msgid "Listar produtos"
+msgstr "Products list"
+
+#: Controller/ProdutosController.php:240
+#: View/Elements/scriptAutocompleteProdutoEcalcVenda.ctp:26
+msgid "Produto"
+msgstr "Product"
+
+#: Controller/ProdutosController.php:271
+msgid "Produto atualizado"
+msgstr "Updated product"
+
+#: Controller/ProdutosController.php:292
+msgid "Atualizar Produto"
+msgstr "Product update"
+
+#: Controller/ProprietariosController.php:90
+msgid "Proprietário atualizado"
+msgstr "Owner upgraded"
+
+#: Controller/ProprietariosController.php:105
+msgid "Atualizar proprietário"
+msgstr "Update owner"
+
+#: Controller/ProprietariosController.php:126
+msgid "Proprietário"
+msgstr "Owner"
+
+#: Controller/RelatoriosController.php:132
+#: View/Relatorios/relatorios_vendas.ctp:38
+msgid "Vendas no mês ou dia"
+msgstr "Sales in the month or day"
+
+#: Controller/RelatoriosController.php:171
+#: View/Relatorios/relatorios_vendas.ctp:41
+msgid "Vendas no mês ou dia vendedor"
+msgstr "Sales in the month or day seller"
+
+#: Controller/RelatoriosController.php:187 View/Layouts/partes/sidebar.ctp:100
+#: View/Pages/home.ctp:41
+msgid "Vendas"
+msgstr "Sales"
+
+#: Controller/RelatoriosController.php:204 View/Layouts/partes/sidebar.ctp:127
+msgid "Relatório vendas"
+msgstr "Report sales"
+
+#: Controller/RelatoriosController.php:252
+#: View/Relatorios/relatorios_produtos.ctp:32
+msgid "Produtos mais vendidos no mês ou dia"
+msgstr "Popular products in the month or day"
+
+#: Controller/RelatoriosController.php:259 View/Layouts/partes/sidebar.ctp:84
+#: View/Pages/home.ctp:35
+msgid "Produtos"
+msgstr "Products"
+
+#: Controller/RelatoriosController.php:287 View/Layouts/partes/sidebar.ctp:130
+msgid "Relatório produtos"
+msgstr "Report products"
+
+#: Controller/RelatoriosController.php:386
+#: View/Relatorios/relatorios_clientes.ctp:38
+msgid "Clientes por cidade"
+msgstr "Customers by city"
+
+#: Controller/RelatoriosController.php:410
+#: View/Relatorios/relatorios_clientes.ctp:41
+msgid "Clientes por estado"
+msgstr "Clients by State"
+
+#: Controller/RelatoriosController.php:424 View/Layouts/partes/sidebar.ctp:50
+#: View/Pages/home.ctp:53
+msgid "Clientes"
+msgstr "Customers"
+
+#: Controller/RelatoriosController.php:445 View/Layouts/partes/sidebar.ctp:133
+msgid "Relatório clientes"
+msgstr "Customers report"
+
+#: Controller/UsuariosController.php:87
+msgid "Entrar como usuário"
+msgstr "Login as user"
+
+#: Controller/UsuariosController.php:99
+msgid "Saiu do sistema"
+msgstr "Exited the system"
+
+#: Controller/UsuariosController.php:155
+msgid "Acesso restrito"
+msgstr "Restricted access"
+
+#: Controller/VendasController.php:108
+msgid "Venda cadastrada"
+msgstr "Registered sale"
+
+#: Controller/VendasController.php:115
+msgid "Adicionar venda"
+msgstr "Add sale"
+
+#: Controller/VendasController.php:261
+msgid "Venda"
+msgstr "Sale"
+
+#: Controller/VendasController.php:307
+msgid "Exclusões concluídas "
+msgstr "Completed exclusions"
+
+#: Controller/VendedoresController.php:98
+msgid "Vendedor cadastrado"
+msgstr "Registered seller"
+
+#: Controller/VendedoresController.php:107
+#: View/Relatorios/relatorios_vendas.ctp:129
+msgid "Adicionar vendedor"
+msgstr "Add seller"
+
+#: Controller/VendedoresController.php:187 View/Vendedores/editar.ctp:10
+msgid "Listar vendedores"
+msgstr "Sellers list"
+
+#: Controller/VendedoresController.php:221
+#: View/Relatorios/relatorios_vendas.ctp:64
+#: View/Relatorios/relatorios_vendas.ctp:174 View/Vendas/visualizar.ctp:58
+msgid "Vendedor"
+msgstr "Seller"
+
+#: Controller/VendedoresController.php:305
+msgid "Vendedor atualizado"
+msgstr "Seller upgraded"
+
+#: Controller/VendedoresController.php:335
+msgid "Atualizar vendedor"
+msgstr "Seller update"
+
+#: Model/Parcela.php:68 View/Elements/scriptExcluirSelecionados.ctp:22
+#: View/Parcelas/listar.ctp:283 View/Permissoes/Permitir.ctp:48
+#: View/Permissoes/Permitir.ctp:61 View/Permissoes/Permitir.ctp:73
+#: View/Permissoes/Permitir.ctp:85 View/Permissoes/Permitir.ctp:97
+#: View/Permissoes/Permitir.ctp:109 View/Permissoes/Permitir.ctp:121
+#: View/Permissoes/Permitir.ctp:133
+msgid "Não"
+msgstr "No"
+
+#: Model/Parcela.php:70 View/Permissoes/Permitir.ctp:47
+#: View/Permissoes/Permitir.ctp:60 View/Permissoes/Permitir.ctp:72
+#: View/Permissoes/Permitir.ctp:84 View/Permissoes/Permitir.ctp:96
+#: View/Permissoes/Permitir.ctp:108 View/Permissoes/Permitir.ctp:120
+#: View/Permissoes/Permitir.ctp:132 View/Vendas/visualizar.ctp:102
+msgid "Sim"
+msgstr "Yes"
+
+#: Model/Venda.php:93 View/Vendas/listar.ctp:119 View/Vendas/novo.ctp:67
+#: View/Vendas/novo.ctp:110
+msgid "Prazo"
+msgstr "Term"
+
+#: Model/Venda.php:95 View/Vendas/novo.ctp:66 View/Vendas/visualizar.ctp:74
+msgid "Á vista"
+msgstr "At sight"
+
+#: View/ConfigsBoletos/include/layout_cef.php:75
+msgid "Instruções de Impressão"
+msgstr "Instruções de Impressão"
+
+#: View/ConfigsBoletos/include/layout_cef.php:80
+msgid ""
+"Imprima em impressora jato de tinta (ink jet) ou laser em qualidade normal "
+"ou alta (Não use modo econômico)"
+msgstr ""
+"Print on inkjet printer (ink jet) or laser in normal or high quality (Do not "
+"use sleep mode)"
+
+#: View/ConfigsBoletos/include/layout_cef.php:81
+msgid ""
+"Utilize folha A4 (210 x 297 mm) ou Carta (216 x 279 mm) e margens mínimas á "
+"esquerda e á direita do formulário"
+msgstr ""
+"Use A4 (210 x 297 mm) or Letter (216 x 279 mm) minimum and shall be left and "
+"right margins of the form"
+
+#: View/ConfigsBoletos/include/layout_cef.php:82
+msgid ""
+"Corte na linha indicada. Não rasure, risque, fure ou dobre a região onde se "
+"encontra o código de barras"
+msgstr ""
+"Cut at the line. Not Rasure, scratch, puncture or bend the region where the "
+"barcode"
+
+#: View/ConfigsBoletos/include/layout_cef.php:83
+msgid ""
+"Caso não apareça o código de barras no final, clique em F5 para atualizar "
+"esta tela"
+msgstr "If not the barcode at the end, click F5 to refresh this screen"
+
+#: View/ConfigsBoletos/include/layout_cef.php:84
+msgid ""
+"Caso tenha problemas ao imprimir, copie a sequência numérica abaixo e pague "
+"no caixa eletrônico ou no internet banking:"
+msgstr ""
+"If you have problems printing, copy the following numerical sequence and pay "
+"at the ATM or internet banking:"
+
+#: View/ConfigsBoletos/include/layout_cef.php:86
+msgid "Linha Digitável"
+msgstr "Typeful line"
+
+#: View/ConfigsBoletos/include/layout_cef.php:87 View/Financeiros/index.ctp:79
+#: View/Parcelas/listar.ctp:84 View/Vendas/visualizar.ctp:80
+msgid "Valor"
+msgstr "Value"
+
+#: View/ConfigsBoletos/include/layout_cef.php:99
+msgid "Recibo do Sacado"
+msgstr "Receipt withdrawn"
+
+#: View/ConfigsBoletos/include/layout_cef.php:137
+#: View/ConfigsBoletos/include/layout_cef.php:356
+msgid "Cedente"
+msgstr "Transferor"
+
+#: View/ConfigsBoletos/include/layout_cef.php:139
+msgid "Agência/Código do Cedente"
+msgstr "Agency / code Assignor"
+
+#: View/ConfigsBoletos/include/layout_cef.php:141
+#: View/ConfigsBoletos/include/layout_cef.php:428
+#: View/ConfigsBoletos/Configuracao_boleto.ctp:52
+msgid "Espécie"
+msgstr "Species"
+
+#: View/ConfigsBoletos/include/layout_cef.php:143
+#: View/ConfigsBoletos/include/layout_cef.php:430 View/Produtos/editar.ctp:52
+#: View/Produtos/novo.ctp:51 View/Produtos/visualizar.ctp:31
+msgid "Quantidade"
+msgstr "Quantity"
+
+#: View/ConfigsBoletos/include/layout_cef.php:145
+#: View/ConfigsBoletos/include/layout_cef.php:388
+#: View/ConfigsBoletos/Configuracao_boleto.ctp:70
+msgid "Nosso número"
+msgstr "Our number"
+
+#: View/ConfigsBoletos/include/layout_cef.php:177
+msgid "Número do documento"
+msgstr "Document number"
+
+#: View/ConfigsBoletos/include/layout_cef.php:179
+msgid "CPF/CNPJ"
+msgstr "CPF/CNPJ"
+
+#: View/ConfigsBoletos/include/layout_cef.php:181
+#: View/ConfigsBoletos/include/layout_cef.php:336
+msgid "Vencimento"
+msgstr "Maturity"
+
+#: View/ConfigsBoletos/include/layout_cef.php:183
+#: View/ConfigsBoletos/include/layout_cef.php:434
+msgid "Valor documento"
+msgstr "Value document"
+
+#: View/ConfigsBoletos/include/layout_cef.php:191
+#: View/ConfigsBoletos/include/layout_cef.php:342
+msgid "Contra Apresentação"
+msgstr "Against Presentation"
+
+#: View/ConfigsBoletos/include/layout_cef.php:214
+#: View/ConfigsBoletos/include/layout_cef.php:496
+msgid "Desconto"
+msgstr "Discount"
+
+#: View/ConfigsBoletos/include/layout_cef.php:214
+#: View/ConfigsBoletos/include/layout_cef.php:496
+msgid "Abatimentos"
+msgstr "Rebates"
+
+#: View/ConfigsBoletos/include/layout_cef.php:217
+#: View/ConfigsBoletos/include/layout_cef.php:527
+msgid "Outras deduções"
+msgstr "other deductions"
+
+#: View/ConfigsBoletos/include/layout_cef.php:220
+#: View/ConfigsBoletos/include/layout_cef.php:558
+msgid "Mora"
+msgstr "Mora"
+
+#: View/ConfigsBoletos/include/layout_cef.php:220
+#: View/ConfigsBoletos/include/layout_cef.php:558
+msgid "Multa"
+msgstr "Fine"
+
+#: View/ConfigsBoletos/include/layout_cef.php:223
+#: View/ConfigsBoletos/include/layout_cef.php:589
+msgid "Outros acréscimos"
+msgstr "Other additions"
+
+#: View/ConfigsBoletos/include/layout_cef.php:226
+#: View/ConfigsBoletos/include/layout_cef.php:617
+msgid "Valor cobrado"
+msgstr "Amount charged"
+
+#: View/ConfigsBoletos/include/layout_cef.php:274
+#: View/ConfigsBoletos/Configuracao_boleto.ctp:79
+msgid "Demonstrativo"
+msgstr "Demonstrative"
+
+#: View/ConfigsBoletos/include/layout_cef.php:276
+#: View/ConfigsBoletos/include/layout_cef.php:676
+msgid "Autenticação mecânica"
+msgstr "Mechanical authentication"
+
+#: View/ConfigsBoletos/include/layout_cef.php:306
+#: View/ConfigsBoletos/include/layout_cef.php:696
+msgid "Corte na linha pontilhada"
+msgstr "Cut on the dotted line"
+
+#: View/ConfigsBoletos/include/layout_cef.php:334
+msgid "Local de pagamento"
+msgstr "Place of payment"
+
+#: View/ConfigsBoletos/include/layout_cef.php:340
+msgid "Pagável em qualquer Banco até o vencimento"
+msgstr "Payable at any bank until maturity"
+
+#: View/ConfigsBoletos/include/layout_cef.php:358
+msgid "Agência/Código cedente"
+msgstr "Agency / Code transferor"
+
+#: View/ConfigsBoletos/include/layout_cef.php:378
+msgid "Data do documento"
+msgstr "Document date"
+
+#: View/ConfigsBoletos/include/layout_cef.php:380
+msgid "documento"
+msgstr "document"
+
+#: View/ConfigsBoletos/include/layout_cef.php:382
+msgid "Espécie  doc"
+msgstr "species doc"
+
+#: View/ConfigsBoletos/include/layout_cef.php:384
+msgid "Aceite"
+msgstr "Acceptance"
+
+#: View/ConfigsBoletos/include/layout_cef.php:386
+msgid "Data processamento"
+msgstr "Data processing"
+
+#: View/ConfigsBoletos/include/layout_cef.php:424
+msgid "Uso do banco"
+msgstr "Using the database"
+
+#: View/ConfigsBoletos/include/layout_cef.php:426
+msgid "Carteira"
+msgstr "Wallet"
+
+#: View/ConfigsBoletos/include/layout_cef.php:432
+msgid "Valor Documento"
+msgstr "Value document"
+
+#: View/ConfigsBoletos/include/layout_cef.php:484
+msgid "Instruções (Texto de responsabilidade do cedente)"
+msgstr "Click (Text of liability of the transferor)"
+
+#: View/ConfigsBoletos/include/layout_cef.php:639
+msgid "Sacado"
+msgstr "Drawee"
+
+#: View/ConfigsBoletos/include/layout_cef.php:661
+msgid "Código baixa"
+msgstr "Low code"
+
+#: View/ConfigsBoletos/include/layout_cef.php:675
+msgid "Sacador/Avalista"
+msgstr "Drawer / Guarantor"
+
+#: View/ConfigsBoletos/include/layout_cef.php:676
+msgid "Ficha de Compensação"
+msgstr "Record compensation"
+
+#: View/Clientes/editar.ctp:23 View/Clientes/editar.ctp:105
+#: View/Clientes/listar.ctp:19 View/Clientes/novo.ctp:19
+#: View/Clientes/novo.ctp:85 View/Configs/Configuracao.ctp:20
+#: View/ConfigsBoletos/Configuracao_boleto.ctp:20
+#: View/Financeiros/index.ctp:19 View/Fornecedores/editar.ctp:21
+#: View/Fornecedores/editar.ctp:124 View/Fornecedores/listar.ctp:20
+#: View/Fornecedores/novo.ctp:19 View/Fornecedores/novo.ctp:85
+#: View/Parcelas/listar.ctp:23 View/Permissoes/Permitir.ctp:19
+#: View/Produtos/editar.ctp:21 View/Produtos/listar.ctp:19
+#: View/Produtos/novo.ctp:20 View/Proprietarios/editar.ctp:21
+#: View/Proprietarios/editar.ctp:124 View/Usuarios/login.ctp:49
+#: View/Vendas/listar.ctp:20 View/Vendas/novo.ctp:23
+#: View/Vendedores/editar.ctp:21 View/Vendedores/editar.ctp:124
+#: View/Vendedores/listar.ctp:19 View/Vendedores/novo.ctp:19
+#: View/Vendedores/novo.ctp:85
+msgid "Sucesso"
+msgstr "Success"
+
+#: View/Clientes/editar.ctp:30 View/Clientes/novo.ctp:29
+#: View/Configs/Configuracao.ctp:30 View/Fornecedores/editar.ctp:32
+#: View/Fornecedores/novo.ctp:29 View/Proprietarios/editar.ctp:32
+#: View/Vendedores/editar.ctp:32 View/Vendedores/novo.ctp:29
+msgid "Informações básicas"
+msgstr "Basic information"
+
+#: View/Clientes/editar.ctp:35 View/Clientes/editar.ctp:102
+#: View/Clientes/novo.ctp:37 View/Clientes/novo.ctp:82
+#: View/Configs/Configuracao.ctp:36
+#: View/ConfigsBoletos/Configuracao_boleto.ctp:36
+#: View/Fornecedores/editar.ctp:40 View/Fornecedores/editar.ctp:121
+#: View/Fornecedores/novo.ctp:37 View/Fornecedores/novo.ctp:82
+#: View/Proprietarios/editar.ctp:40 View/Proprietarios/editar.ctp:121
+#: View/Usuarios/login.ctp:28 View/Vendedores/editar.ctp:40
+#: View/Vendedores/editar.ctp:121 View/Vendedores/novo.ctp:37
+#: View/Vendedores/novo.ctp:82
+msgid "Atenção"
+msgstr "Attention"
+
+#: View/Clientes/editar.ctp:40 View/Clientes/editar.ctp:49
+#: View/Clientes/novo.ctp:47 View/Clientes/novo.ctp:108
+#: View/Fornecedores/editar.ctp:49 View/Fornecedores/editar.ctp:58
+#: View/Fornecedores/novo.ctp:47 View/Fornecedores/novo.ctp:108
+#: View/Proprietarios/editar.ctp:49 View/Proprietarios/editar.ctp:58
+#: View/Vendedores/editar.ctp:49 View/Vendedores/editar.ctp:58
+#: View/Vendedores/novo.ctp:47 View/Vendedores/novo.ctp:108
+msgid "Foto Upload"
+msgstr "Upload a photo"
+
+#: View/Clientes/editar.ctp:41 View/Clientes/editar.ctp:79
+#: View/Clientes/novo.ctp:46 View/Clientes/novo.ctp:56
+#: View/Fornecedores/editar.ctp:50 View/Fornecedores/editar.ctp:94
+#: View/Fornecedores/novo.ctp:46 View/Fornecedores/novo.ctp:56
+#: View/Proprietarios/editar.ctp:50 View/Proprietarios/editar.ctp:94
+#: View/Vendedores/editar.ctp:50 View/Vendedores/editar.ctp:94
+#: View/Vendedores/novo.ctp:46 View/Vendedores/novo.ctp:56
+msgid "Webcam"
+msgstr "Webcam"
+
+#: View/Clientes/editar.ctp:58 View/Clientes/novo.ctp:118
+#: View/Configs/Configuracao.ctp:53 View/Fornecedores/editar.ctp:72
+#: View/Fornecedores/novo.ctp:118 View/Proprietarios/editar.ctp:72
+#: View/Vendedores/editar.ctp:72 View/Vendedores/novo.ctp:118
+msgid "Selecione uma foto"
+msgstr "Select a picture"
+
+#: View/Clientes/editar.ctp:58 View/Clientes/novo.ctp:118
+#: View/Configs/Configuracao.ctp:53 View/Fornecedores/editar.ctp:72
+#: View/Fornecedores/novo.ctp:118 View/Proprietarios/editar.ctp:72
+#: View/Vendedores/editar.ctp:72 View/Vendedores/novo.ctp:118
+msgid "Trocar"
+msgstr "Change"
+
+#: View/Clientes/editar.ctp:60 View/Clientes/novo.ctp:120
+#: View/Configs/Configuracao.ctp:55 View/Fornecedores/editar.ctp:74
+#: View/Fornecedores/novo.ctp:120 View/Proprietarios/editar.ctp:74
+#: View/Vendedores/editar.ctp:74 View/Vendedores/novo.ctp:120
+msgid "Remover"
+msgstr "Remove"
+
+#: View/Clientes/editar.ctp:65 View/Clientes/editar.ctp:108
+#: View/Clientes/novo.ctp:88 View/Clientes/novo.ctp:125
+#: View/Fornecedores/editar.ctp:79 View/Fornecedores/editar.ctp:127
+#: View/Fornecedores/novo.ctp:88 View/Fornecedores/novo.ctp:125
+#: View/Proprietarios/editar.ctp:79 View/Proprietarios/editar.ctp:127
+#: View/Vendedores/editar.ctp:79 View/Vendedores/editar.ctp:127
+#: View/Vendedores/novo.ctp:88 View/Vendedores/novo.ctp:125
+msgid "Info"
+msgstr "Info"
+
+#: View/Clientes/editar.ctp:66 View/Clientes/novo.ctp:126
+#: View/Fornecedores/editar.ctp:80 View/Fornecedores/novo.ctp:126
+#: View/Proprietarios/editar.ctp:80 View/Vendedores/editar.ctp:80
+#: View/Vendedores/novo.ctp:126
+msgid "Escolha uma foto com extensão .PNG ou .JPEG/JPG"
+msgstr "Choose a photo with. .jpeg Or PNG / JPG"
+
+#: View/Clientes/editar.ctp:83 View/Clientes/novo.ctp:60
+#: View/Fornecedores/editar.ctp:98 View/Fornecedores/novo.ctp:60
+#: View/Proprietarios/editar.ctp:98 View/Vendedores/editar.ctp:98
+#: View/Vendedores/novo.ctp:60
+msgid "Tire uma foto após 3 segundos"
+msgstr "Take a picture after 3 seconds"
+
+#: View/Clientes/editar.ctp:83 View/Clientes/novo.ctp:60
+#: View/Fornecedores/editar.ctp:98 View/Fornecedores/novo.ctp:60
+#: View/Proprietarios/editar.ctp:98 View/Vendedores/editar.ctp:98
+#: View/Vendedores/novo.ctp:60
+msgid "Tire uma foto instantaneamente"
+msgstr "Take a picture instantly"
+
+#: View/Clientes/editar.ctp:85 View/Fornecedores/editar.ctp:102
+#: View/Proprietarios/editar.ctp:102 View/Vendedores/editar.ctp:102
+msgid "Câmeras disponível"
+msgstr "Cameras available"
+
+#: View/Clientes/editar.ctp:94 View/Clientes/novo.ctp:74
+#: View/Fornecedores/editar.ctp:112 View/Fornecedores/novo.ctp:74
+#: View/Proprietarios/editar.ctp:112 View/Vendedores/editar.ctp:112
+#: View/Vendedores/novo.ctp:74
+msgid "Foto"
+msgstr "Photo"
+
+#: View/Clientes/editar.ctp:99 View/Clientes/novo.ctp:79
+#: View/Elements/webcam.ctp:174 View/Elements/webcam.ctp:232
+#: View/Fornecedores/editar.ctp:118 View/Fornecedores/novo.ctp:79
+#: View/Proprietarios/editar.ctp:118 View/Vendedores/editar.ctp:118
+#: View/Vendedores/novo.ctp:79
+msgid "Confirmar foto"
+msgstr "Check photo"
+
+#: View/Clientes/editar.ctp:100 View/Clientes/novo.ctp:80
+#: View/Fornecedores/editar.ctp:119 View/Fornecedores/novo.ctp:80
+#: View/Proprietarios/editar.ctp:119 View/Vendedores/editar.ctp:119
+#: View/Vendedores/novo.ctp:80
+msgid "Não confirmar foto"
+msgstr "Not confirm photo"
+
+#: View/Clientes/editar.ctp:103 View/Clientes/novo.ctp:83
+#: View/Fornecedores/editar.ctp:122 View/Fornecedores/novo.ctp:83
+#: View/Proprietarios/editar.ctp:122 View/Vendedores/editar.ctp:122
+#: View/Vendedores/novo.ctp:83
+msgid "Por favor, confirme foto para que possa ser salva no sistema"
+msgstr "Please confirm photo so it can be saved in the system"
+
+#: View/Clientes/editar.ctp:106 View/Clientes/novo.ctp:86
+#: View/Fornecedores/editar.ctp:125 View/Fornecedores/novo.ctp:86
+#: View/Proprietarios/editar.ctp:125 View/Vendedores/editar.ctp:125
+#: View/Vendedores/novo.ctp:86
+msgid "Foto confirmada com sucesso pronta para ser salva no sistema"
+msgstr "Photo successfully confirmed ready to be saved in the system"
+
+#: View/Clientes/editar.ctp:109 View/Clientes/novo.ctp:89
+#: View/Fornecedores/editar.ctp:128 View/Fornecedores/novo.ctp:89
+#: View/Proprietarios/editar.ctp:128 View/Vendedores/editar.ctp:128
+#: View/Vendedores/novo.ctp:89
+msgid "Toda foto tirada aqui é salva em .PNG com dimensão A: 240px e L: 320px"
+msgstr ""
+"Every photo taken here is saved in PNG with dimension H:. 240px and W: 320px"
+
+#: View/Clientes/editar.ctp:136 View/Clientes/listar.ctp:64
+#: View/Clientes/novo.ctp:150 View/Fornecedores/editar.ctp:156
+#: View/Fornecedores/listar.ctp:65 View/Fornecedores/novo.ctp:152
+#: View/Produtos/editar.ctp:38 View/Produtos/listar.ctp:64
+#: View/Produtos/novo.ctp:37 View/Produtos/visualizar.ctp:59
+#: View/Proprietarios/editar.ctp:157
+#: View/Relatorios/relatorios_produtos.ctp:63 View/Vendedores/editar.ctp:154
+#: View/Vendedores/listar.ctp:64 View/Vendedores/novo.ctp:153
+msgid "Nome"
+msgstr "Name"
+
+#: View/Clientes/editar.ctp:142 View/Clientes/novo.ctp:158
+#: View/Fornecedores/editar.ctp:165 View/Fornecedores/novo.ctp:162
+#: View/Proprietarios/editar.ctp:166 View/Vendedores/editar.ctp:163
+#: View/Vendedores/novo.ctp:163
+msgid "Selecione sexo"
+msgstr "Select sex"
+
+#: View/Clientes/editar.ctp:145 View/Clientes/novo.ctp:161
+#: View/Clientes/visualizar.ctp:41 View/Fornecedores/editar.ctp:168
+#: View/Fornecedores/novo.ctp:165 View/Fornecedores/visualizar.ctp:41
+#: View/Proprietarios/editar.ctp:169 View/Proprietarios/visualizar.ctp:40
+#: View/Vendedores/editar.ctp:166 View/Vendedores/novo.ctp:166
+#: View/Vendedores/visualizar.ctp:45
+msgid "Masculino"
+msgstr "Male"
+
+#: View/Clientes/editar.ctp:146 View/Clientes/novo.ctp:162
+#: View/Clientes/visualizar.ctp:41 View/Fornecedores/editar.ctp:169
+#: View/Fornecedores/novo.ctp:166 View/Fornecedores/visualizar.ctp:41
+#: View/Proprietarios/editar.ctp:170 View/Proprietarios/visualizar.ctp:40
+#: View/Vendedores/editar.ctp:167 View/Vendedores/novo.ctp:167
+#: View/Vendedores/visualizar.ctp:45
+msgid "Feminino"
+msgstr "Female"
+
+#: View/Clientes/editar.ctp:157 View/Clientes/listar.ctp:76
+#: View/Clientes/novo.ctp:178 View/Clientes/visualizar.ctp:35
+#: View/Fornecedores/editar.ctp:186 View/Fornecedores/listar.ctp:77
+#: View/Fornecedores/novo.ctp:182 View/Fornecedores/visualizar.ctp:35
+#: View/Produtos/visualizar.ctp:63 View/Proprietarios/editar.ctp:187
+#: View/Proprietarios/visualizar.ctp:31 View/Vendas/visualizar.ctp:33
+#: View/Vendas/visualizar.ctp:62 View/Vendedores/editar.ctp:184
+#: View/Vendedores/listar.ctp:76 View/Vendedores/novo.ctp:183
+#: View/Vendedores/visualizar.ctp:36
+msgid "Telefone"
+msgstr "Phone"
+
+#: View/Clientes/editar.ctp:177 View/Clientes/novo.ctp:201
+#: View/Clientes/visualizar.ctp:46 View/Fornecedores/editar.ctp:210
+#: View/Fornecedores/novo.ctp:205 View/Fornecedores/visualizar.ctp:46
+#: View/Vendedores/editar.ctp:209 View/Vendedores/novo.ctp:208
+#: View/Vendedores/visualizar.ctp:50
+msgid "Endereço"
+msgstr "Address"
+
+#: View/Clientes/editar.ctp:182 View/Clientes/novo.ctp:207
+#: View/ConfigsBoletos/boleto_cef.ctp:52 View/Fornecedores/editar.ctp:216
+#: View/Fornecedores/novo.ctp:211 View/Vendedores/editar.ctp:215
+#: View/Vendedores/novo.ctp:214
+msgid "Rua"
+msgstr "Street"
+
+#: View/Clientes/editar.ctp:188 View/Clientes/novo.ctp:216
+#: View/ConfigsBoletos/boleto_cef.ctp:52 View/Fornecedores/editar.ctp:224
+#: View/Fornecedores/novo.ctp:220 View/Vendedores/editar.ctp:223
+#: View/Vendedores/novo.ctp:223
+msgid "Número"
+msgstr "Number"
+
+#: View/Clientes/editar.ctp:194 View/Clientes/novo.ctp:224
+#: View/Fornecedores/editar.ctp:232 View/Fornecedores/novo.ctp:228
+#: View/Vendedores/editar.ctp:231 View/Vendedores/novo.ctp:231
+msgid "Bairro"
+msgstr "Neighborhood"
+
+#: View/Clientes/editar.ctp:203 View/Clientes/editar.ctp:205
+#: View/Clientes/editar.ctp:206 View/Clientes/novo.ctp:236
+#: View/Clientes/novo.ctp:238 View/Clientes/novo.ctp:239
+#: View/Fornecedores/editar.ctp:246 View/Fornecedores/editar.ctp:248
+#: View/Fornecedores/editar.ctp:249 View/Fornecedores/novo.ctp:240
+#: View/Fornecedores/novo.ctp:242 View/Fornecedores/novo.ctp:243
+#: View/Relatorios/relatorios_clientes.ctp:55
+#: View/Relatorios/relatorios_clientes.ctp:56
+#: View/Relatorios/relatorios_clientes.ctp:109
+#: View/Relatorios/relatorios_clientes.ctp:110 View/Vendedores/editar.ctp:243
+#: View/Vendedores/editar.ctp:245 View/Vendedores/editar.ctp:246
+#: View/Vendedores/novo.ctp:244 View/Vendedores/novo.ctp:246
+#: View/Vendedores/novo.ctp:247
+msgid "Selecione um estado"
+msgstr "Select a state"
+
+#: View/Clientes/editar.ctp:214 View/Clientes/novo.ctp:252
+#: View/Fornecedores/editar.ctp:264 View/Fornecedores/novo.ctp:256
+#: View/Relatorios/relatorios_clientes.ctp:90 View/Vendedores/editar.ctp:261
+#: View/Vendedores/novo.ctp:262
+msgid "Selecione uma cidade"
+msgstr "Select a city"
+
+#: View/Clientes/editar.ctp:217 View/Clientes/novo.ctp:257
+#: View/Fornecedores/editar.ctp:269 View/Fornecedores/novo.ctp:261
+#: View/Vendedores/editar.ctp:266 View/Vendedores/novo.ctp:267
+msgid "Selecione um estado antes"
+msgstr "Select a state before"
+
+#: View/Clientes/editar.ctp:228 View/Clientes/novo.ctp:265
+#: View/Configs/Configuracao.ctp:162
+#: View/ConfigsBoletos/Configuracao_boleto.ctp:123
+#: View/Financeiros/index.ctp:101 View/Fornecedores/editar.ctp:285
+#: View/Fornecedores/novo.ctp:268 View/Permissoes/Permitir.ctp:145
+#: View/Produtos/editar.ctp:86 View/Produtos/novo.ctp:83
+#: View/Proprietarios/editar.ctp:229 View/Vendas/novo.ctp:96
+#: View/Vendedores/editar.ctp:315 View/Vendedores/novo.ctp:310
+msgid "Salvar"
+msgstr "Save"
+
+#: View/Clientes/listar.ctp:28 View/Elements/webcam.ctp:153
+#: View/Fornecedores/listar.ctp:29 View/Parcelas/listar.ctp:32
+#: View/Produtos/listar.ctp:28 View/Usuarios/login.ctp:38
+#: View/Vendas/listar.ctp:29 View/Vendedores/listar.ctp:28
+msgid "Erro"
+msgstr "Error"
+
+#: View/Clientes/listar.ctp:38 View/Fornecedores/listar.ctp:39
+#: View/Parcelas/listar.ctp:42 View/Produtos/listar.ctp:38
+#: View/Relatorios/relatorios_clientes.ctp:28
+#: View/Relatorios/relatorios_produtos.ctp:22
+#: View/Relatorios/relatorios_vendas.ctp:28 View/Vendas/listar.ctp:39
+#: View/Vendedores/listar.ctp:38
+msgid "Tabela de dados"
+msgstr "Table of data"
+
+#: View/Clientes/listar.ctp:46 View/Financeiros/index.ctp:39
+#: View/Fornecedores/listar.ctp:47 View/Parcelas/listar.ctp:50
+#: View/Produtos/listar.ctp:46 View/Relatorios/relatorios_clientes.ctp:96
+#: View/Relatorios/relatorios_clientes.ctp:124
+#: View/Relatorios/relatorios_produtos.ctp:41
+#: View/Relatorios/relatorios_vendas.ctp:50
+#: View/Relatorios/relatorios_vendas.ctp:61 View/Vendas/listar.ctp:48
+#: View/Vendedores/listar.ctp:46
+msgid "Buscar"
+msgstr "Seach"
+
+#: View/Clientes/listar.ctp:47 View/Fornecedores/listar.ctp:48
+#: View/Parcelas/listar.ctp:51 View/Produtos/listar.ctp:47
+#: View/Vendas/listar.ctp:49 View/Vendedores/listar.ctp:47
+msgid "Pesquisa aqui"
+msgstr "Search here"
+
+#: View/Clientes/listar.ctp:63 View/Fornecedores/listar.ctp:64
+#: View/Parcelas/listar.ctp:71 View/Produtos/listar.ctp:63
+#: View/Vendas/listar.ctp:66 View/Vendedores/listar.ctp:63
+msgid "Operações"
+msgstr "Operations"
+
+#: View/Clientes/listar.ctp:101 View/Elements/webcam.ctp:37
+#: View/Fornecedores/listar.ctp:102 View/Parcelas/listar.ctp:120
+#: View/Produtos/listar.ctp:101 View/Vendas/listar.ctp:115
+#: View/Vendas/novo.ctp:120 View/Vendedores/listar.ctp:101
+msgid "Escolha"
+msgstr "choice"
+
+#: View/Clientes/listar.ctp:103 View/Fornecedores/listar.ctp:104
+#: View/Layouts/partes/header.ctp:142 View/Produtos/listar.ctp:103
+#: View/Relatorios/relatorios_clientes.ctp:179
+#: View/Relatorios/relatorios_produtos.ctp:116
+#: View/Relatorios/relatorios_vendas.ctp:209 View/Vendas/listar.ctp:117
+#: View/Vendedores/listar.ctp:103
+msgid "Visualizar"
+msgstr "Visualize"
+
+#: View/Clientes/listar.ctp:106 View/Fornecedores/listar.ctp:107
+#: View/Produtos/listar.ctp:106 View/Vendedores/listar.ctp:106
+msgid "Atualizar"
+msgstr "Update"
+
+#: View/Clientes/listar.ctp:107 View/Elements/scriptExcluir.ctp:14
+#: View/Elements/scriptExcluirSelecionados.ctp:12
+#: View/Fornecedores/listar.ctp:108 View/Produtos/listar.ctp:107
+#: View/Vendas/listar.ctp:123 View/Vendedores/listar.ctp:107
+msgid "Excluir"
+msgstr "Delete"
+
+#: View/Clientes/listar.ctp:109 View/Fornecedores/listar.ctp:110
+#: View/Layouts/partes/sidebar.ctp:36 View/Layouts/partes/sidebar.ctp:53
+#: View/Layouts/partes/sidebar.ctp:70 View/Layouts/partes/sidebar.ctp:87
+#: View/Layouts/partes/sidebar.ctp:103 View/Produtos/listar.ctp:109
+#: View/Vendas/listar.ctp:125 View/Vendedores/listar.ctp:109
+msgid "Adicionar"
+msgstr "Add"
+
+#: View/Clientes/listar.ctp:110 View/Fornecedores/listar.ctp:111
+#: View/Produtos/listar.ctp:110 View/Vendas/listar.ctp:126
+#: View/Vendedores/listar.ctp:110
+msgid "Excluir selecionados"
+msgstr "Delete Selected"
+
+#: View/Clientes/listar.ctp:124 View/Fornecedores/listar.ctp:125
+#: View/Parcelas/listar.ctp:152 View/Produtos/listar.ctp:125
+#: View/Relatorios/relatorios_clientes.ctp:195
+#: View/Relatorios/relatorios_produtos.ctp:131
+#: View/Relatorios/relatorios_vendas.ctp:223 View/Vendas/listar.ctp:141
+#: View/Vendedores/listar.ctp:124
+msgid "Nenhum registro encontrado"
+msgstr "No records found"
+
+#: View/Clientes/listar.ctp:137 View/Fornecedores/listar.ctp:138
+#: View/Parcelas/listar.ctp:171 View/Produtos/listar.ctp:138
+#: View/Relatorios/relatorios_clientes.ctp:208
+#: View/Relatorios/relatorios_produtos.ctp:144
+#: View/Relatorios/relatorios_vendas.ctp:236 View/Vendas/listar.ctp:154
+#: View/Vendedores/listar.ctp:137
+msgid ""
+"Página %page% de %pages%, mostrando %current% registros de um total de %count"
+"%, indo do registro %start% até o %end%"
+msgstr ""
+"Page %page% of %pages%, showing %current% records from a total of %count%, "
+"going from record %start% end until the %end%"
+
+#: View/Clientes/novo.ctp:64 View/Fornecedores/novo.ctp:64
+#: View/Vendedores/novo.ctp:64
+msgid "Câmeras disponíveis"
+msgstr "Cameras available"
+
+#: View/Clientes/visualizar.ctp:4 View/Fornecedores/visualizar.ctp:4
+#: View/Produtos/editar.ctp:31 View/Produtos/novo.ctp:30
+#: View/Produtos/visualizar.ctp:4 View/Proprietarios/visualizar.ctp:4
+#: View/Vendas/visualizar.ctp:4 View/Vendedores/visualizar.ctp:4
+msgid "Informações"
+msgstr "Information"
+
+#: View/Clientes/visualizar.ctp:40 View/Fornecedores/visualizar.ctp:40
+#: View/Proprietarios/visualizar.ctp:39 View/Vendedores/visualizar.ctp:44
+msgid "Sexo"
+msgstr "Sex"
+
+#: View/Clientes/visualizar.ctp:62 View/Fornecedores/visualizar.ctp:63
+#: View/Produtos/visualizar.ctp:82 View/Proprietarios/visualizar.ctp:54
+#: View/Vendas/visualizar.ctp:132 View/Vendedores/visualizar.ctp:67
+msgid "Fechar"
+msgstr "Close"
+
+#: View/Configs/Configuracao.ctp:43
+msgid "Logomarca"
+msgstr "Logo"
+
+#: View/Configs/Configuracao.ctp:61
+msgid "Nome do sistema"
+msgstr "System Name"
+
+#: View/Configs/Configuracao.ctp:80
+msgid "Estilos e idiomas"
+msgstr "Styles and languages"
+
+#: View/Configs/Configuracao.ctp:88
+msgid "Selecione um idioma"
+msgstr "Select a language"
+
+#: View/Configs/Configuracao.ctp:92
+msgid "Português"
+msgstr "Portuguese"
+
+#: View/Configs/Configuracao.ctp:93
+msgid "Inglês"
+msgstr "English"
+
+#: View/Configs/Configuracao.ctp:101
+msgid "Selecione um tema"
+msgstr "Select a theme"
+
+#: View/Configs/Configuracao.ctp:105
+msgid "Verde"
+msgstr "Green"
+
+#: View/Configs/Configuracao.ctp:106
+msgid "Cinza"
+msgstr "Gray"
+
+#: View/Configs/Configuracao.ctp:107
+msgid "Roxo"
+msgstr "Purple"
+
+#: View/Configs/Configuracao.ctp:108
+msgid "Azul-marinho"
+msgstr "Navy blue"
+
+#: View/Configs/Configuracao.ctp:126
+msgid "Paginação"
+msgstr "Pagination"
+
+#: View/Configs/Configuracao.ctp:134 View/Configs/Configuracao.ctp:136
+msgid "Número de registros"
+msgstr "Number of records"
+
+#: View/Configs/Configuracao.ctp:136
+msgid ""
+"Informe o número de registros que serão mostrados a cada página de listar"
+msgstr ""
+"Enter the number of records that will be shown on every page of listing"
+
+#: View/Configs/Configuracao.ctp:148 View/Configs/Configuracao.ctp:150
+msgid "Diferença entre botões"
+msgstr "Difference between buttons"
+
+#: View/Configs/Configuracao.ctp:150
+msgid "Informe a diferença entre os botões na paginação"
+msgstr "Tell the difference between the paging buttons"
+
+#: View/Configs/Configuracao.ctp:225 View/Elements/validaFotoAdicionar.ctp:53
+#: View/Elements/validaFotoEditar.ctp:43
+msgid ""
+"Extensão de imagem inválida. Só se pode fazer upload de arquivos com "
+"extensões: .JPG, .JPEG ou .PNG"
+msgstr ""
+"Extension Invalid image. You can only upload files with extensions:.. JPG, "
+"JPEG or PNG."
+
+#: View/ConfigsBoletos/boleto_cef.ctp:51
+#: View/Relatorios/relatorios_clientes.ctp:167
+msgid "Cidade"
+msgstr "City"
+
+#: View/ConfigsBoletos/boleto_cef.ctp:51
+#: View/Relatorios/relatorios_clientes.ctp:160
+msgid "Estado"
+msgstr "State"
+
+#: View/ConfigsBoletos/boleto_cef.ctp:55
+msgid "Pagamento de Compra com Idvenda:"
+msgstr "Payment of Purchase Sale with Id:"
+
+#: View/ConfigsBoletos/boleto_cef.ctp:56
+msgid "Mensalidade referente a parcela com IdParcela: "
+msgstr "Monthly payment related to a portion with Parcel Id:"
+
+#: View/ConfigsBoletos/boleto_cef.ctp:60
+msgid "- Sr. Caixa, cobrar multa de 2% após o vencimento"
+msgstr "- Mr. Box, penalty charge of 2% after maturity"
+
+#: View/ConfigsBoletos/boleto_cef.ctp:61
+msgid "- Receber até 10 dias após o vencimento"
+msgstr "- Receive up to 10 days past due"
+
+#: View/ConfigsBoletos/boleto_cef.ctp:62
+msgid "- Em caso de dúvidas entre em contato conosco: xxxx@xxxx.com.br"
+msgstr "- In case of questions please contact us: xxxx@xxxx.com.br"
+
+#: View/ConfigsBoletos/boleto_cef.ctp:89
+msgid "Coloque o endereço da sua empresa aqui"
+msgstr "Put the address of your company here"
+
+#: View/ConfigsBoletos/boleto_cef.ctp:90
+msgid "Cidade / Estado"
+msgstr "City / State"
+
+#: View/ConfigsBoletos/Configuracao_boleto.ctp:30
+msgid "Informações básicas sobre boleto"
+msgstr "Basics docket"
+
+#: View/ConfigsBoletos/Configuracao_boleto.ctp:43
+msgid "Taxa de boleto"
+msgstr "Rate docket"
+
+#: View/ConfigsBoletos/Configuracao_boleto.ctp:61
+msgid "Início nosso número"
+msgstr "Beginning our number"
+
+#: View/ConfigsBoletos/Configuracao_boleto.ctp:88
+msgid "Instruções"
+msgstr "Directions"
+
+#: View/ConfigsBoletos/Configuracao_boleto.ctp:97
+msgid "Agência"
+msgstr "Agency"
+
+#: View/ConfigsBoletos/Configuracao_boleto.ctp:106
+msgid "Conta"
+msgstr "Account"
+
+#: View/ConfigsBoletos/Configuracao_boleto.ctp:115
+msgid "Dígito da Conta"
+msgstr "Digit Account"
+
+#: View/Elements/paginacao.ctp:10
+msgid "Primeiro"
+msgstr "First"
+
+#: View/Elements/paginacao.ctp:12
+msgid "Anterior"
+msgstr "Previous"
+
+#: View/Elements/paginacao.ctp:16
+msgid "Próximo"
+msgstr "Next"
+
+#: View/Elements/paginacao.ctp:18
+msgid "Último"
+msgstr "Last"
+
+#: View/Elements/scriptAutocompleteProdutoEcalcVenda.ctp:26
+#: View/Produtos/editar.ctp:45 View/Produtos/listar.ctp:76
+#: View/Produtos/novo.ctp:44 View/Produtos/visualizar.ctp:27
+#: View/Relatorios/relatorios_produtos.ctp:78
+msgid "Preço"
+msgstr "Price"
+
+#: View/Elements/scriptAutocompleteProdutoEcalcVenda.ctp:26
+msgid "Qtd"
+msgstr "Qat"
+
+#: View/Elements/scriptAutocompleteProdutoEcalcVenda.ctp:30
+msgid "Remover produto"
+msgstr "Remove product"
+
+#: View/Elements/scriptAutocompleteProdutoEcalcVenda.ctp:132
+msgid " Quant. indisponível - Editar produto - \"+item.nomeProduto+\""
+msgstr "Quant. stock - Edit product - \"+item.nomeProduto+\""
+
+#: View/Elements/scriptExcluir.ctp:10
+msgid "Você realmente deseja excluir este item"
+msgstr "Do you really want to delete this item"
+
+#: View/Elements/scriptExcluir.ctp:11 View/Parcelas/listar.ctp:211
+msgid "Confirmação"
+msgstr "Confirmation"
+
+#: View/Elements/scriptExcluirSelecionados.ctp:8
+msgid "Você realmente deseja excluir estes itens"
+msgstr "Do you really want to delete these items"
+
+#: View/Elements/selectCidadeEstado.ctp:26
+msgid "Escolha um estado antes"
+msgstr "Choose a state before"
+
+#: View/Elements/validaFotoAdicionar.ctp:32
+msgid ""
+"Foto é obrigatório, escolha uma das formas de imagem, foto upload ou webcam"
+msgstr ""
+"Photo is required, select one of the forms of image, photo or upload webcam"
+
+#: View/Elements/validaFotoAdicionar.ctp:41
+#: View/Elements/validaFotoEditar.ctp:31
+msgid "Escolha apenas uma das formas de imagem, foto upload ou webcam"
+msgstr "Choose only one of the forms of image, photo or upload webcam"
+
+#: View/Elements/webcam.ctp:39
+msgid "segundos restantes"
+msgstr "seconds remaining"
+
+#: View/Elements/webcam.ctp:146
+msgid "Notificação"
+msgstr "Notification"
+
+#: View/Elements/webcam.ctp:162
+msgid "Câmera está em funcionamento"
+msgstr "Camera is operating"
+
+#: View/Elements/webcam.ctp:165
+msgid "Câmera foi interrompida, atualize a página e aperte no botão permitir"
+msgstr "Camera stopped, refresh the page and press the button to allow"
+
+#: View/Elements/webcam.ctp:172
+msgid "Foto capturada"
+msgstr "Photo captured"
+
+#: View/Elements/webcam.ctp:179
+msgid "Nenhuma câmera foi detectada"
+msgstr "No camera was detected"
+
+#: View/Elements/webcam.ctp:182
+msgid "Atualize a página ou ative a câmera do hardware e atualize novamente"
+msgstr "Refresh the page or turn the camera hardware and update again"
+
+#: View/Elements/webcam.ctp:190
+msgid "Aperte no botão permitir no FLASH acima"
+msgstr "Press the button to allow the above FLASH"
+
+#: View/Elements/webcam.ctp:225
+msgid "Foto confirmada"
+msgstr "Photo confirmed"
+
+#: View/Financeiros/index.ctp:26
+msgid "Consultas total venda"
+msgstr "Total queries sale"
+
+#: View/Financeiros/index.ctp:34
+msgid "Total das vendas no mês ou dia"
+msgstr "Total sales in the month or day"
+
+#: View/Financeiros/index.ctp:40 View/Relatorios/relatorios_produtos.ctp:42
+#: View/Relatorios/relatorios_vendas.ctp:51
+#: View/Relatorios/relatorios_vendas.ctp:62
+#: View/Relatorios/relatorios_vendas.ctp:191 View/Vendas/listar.ctp:90
+#: View/Vendas/novo.ctp:54
+msgid "Data"
+msgstr "Date"
+
+#: View/Financeiros/index.ctp:50
+msgid "Total vendas"
+msgstr "Total sales"
+
+#: View/Financeiros/index.ctp:63
+msgid "Saque ou depósito finânceiro"
+msgstr "Booty or financial deposit"
+
+#: View/Financeiros/index.ctp:71
+msgid "Total em caixa"
+msgstr "Total cash"
+
+#: View/Financeiros/index.ctp:85
+msgid "Operação"
+msgstr "Operation"
+
+#: View/Financeiros/index.ctp:89
+msgid "Depositar"
+msgstr "Deposit"
+
+#: View/Financeiros/index.ctp:90
+msgid "Retirar"
+msgstr "Withdraw"
+
+#: View/Financeiros/index.ctp:96
+msgid "Perspectiva valor"
+msgstr "Value perspective"
+
+#: View/Financeiros/index.ctp:104
+msgid "Desenvolvedor informe algum valor inicial no financeiro"
+msgstr "Developer report some initial value in the financial"
+
+#: View/Fornecedores/editar.ctp:195 View/Fornecedores/novo.ctp:190
+msgid "Observações"
+msgstr ""
+
+#: View/Layouts/partes/footer.ctp:4
+msgid "Iníciado"
+msgstr "Home"
+
+#: View/Layouts/partes/header.ctp:139
+msgid "Editar perfil"
+msgstr "Edit profile"
+
+#: View/Layouts/partes/header.ctp:147
+msgid "Permissões"
+msgstr "Permissions"
+
+#: View/Layouts/partes/header.ctp:152
+msgid "Config. sistema"
+msgstr "Config. system"
+
+#: View/Layouts/partes/header.ctp:161
+msgid "Config. boleto"
+msgstr "Config. billet"
+
+#: View/Layouts/partes/header.ctp:167 View/Layouts/partes/sidebar.ctp:142
+msgid "Sair"
+msgstr "Logout"
+
+#: View/Layouts/partes/sidebar.ctp:33 View/Pages/home.ctp:59
+msgid "Vendedores"
+msgstr "Sellers"
+
+#: View/Layouts/partes/sidebar.ctp:39 View/Layouts/partes/sidebar.ctp:56
+#: View/Layouts/partes/sidebar.ctp:73 View/Layouts/partes/sidebar.ctp:90
+#: View/Layouts/partes/sidebar.ctp:106
+msgid "Listar"
+msgstr "List"
+
+#: View/Layouts/partes/sidebar.ctp:67 View/Pages/home.ctp:47
+msgid "Fornecedores"
+msgstr "Providers"
+
+#: View/Layouts/partes/sidebar.ctp:124
+msgid "Relatórios"
+msgstr "Reports"
+
+#: View/Pages/home.ctp:8
+msgid "Painel principal"
+msgstr "Main panel"
+
+#: View/Pages/home.ctp:8
+msgid "informações gerais"
+msgstr "general information"
+
+#: View/Pages/home.ctp:29
+msgid "Usuários"
+msgstr "Users"
+
+#: View/Parcelas/listar.ctp:72 View/Vendas/visualizar.ctp:80
+msgid "Pagamento"
+msgstr "Payment"
+
+#: View/Parcelas/listar.ctp:95 View/Vendas/visualizar.ctp:80
+msgid "Pago"
+msgstr "Paid"
+
+#: View/Parcelas/listar.ctp:124 View/Parcelas/listar.ctp:214
+#: View/Parcelas/listar.ctp:273
+msgid "Pagar"
+msgstr "Pay"
+
+#: View/Parcelas/listar.ctp:126
+msgid "Ver Boleto"
+msgstr "View billet"
+
+#: View/Parcelas/listar.ctp:130
+msgid "Pagar selecionados"
+msgstr "Selected pay"
+
+#: View/Parcelas/listar.ctp:210
+msgid "Você realmente deseja pagar esta parcela"
+msgstr "You really want to pay this portion"
+
+#: View/Parcelas/listar.ctp:269
+msgid "Você realmente deseja pagar estes parcelas"
+msgstr "You really want to pay these installments"
+
+#: View/Permissoes/Permitir.ctp:27
+msgid "Permissões do usuário vendedor"
+msgstr "User permissions seller"
+
+#: View/Permissoes/Permitir.ctp:44
+msgid "Manter vendedores"
+msgstr "Keep Sellers"
+
+#: View/Permissoes/Permitir.ctp:57
+msgid "Manter clientes"
+msgstr "Keeping customers"
+
+#: View/Permissoes/Permitir.ctp:69
+msgid "Manter fornecedores"
+msgstr "Keep suppliers"
+
+#: View/Permissoes/Permitir.ctp:81
+msgid "Manter produtos"
+msgstr "Keep products"
+
+#: View/Permissoes/Permitir.ctp:93
+msgid "Manter vendas"
+msgstr "Keep sales"
+
+#: View/Permissoes/Permitir.ctp:105
+msgid "Permitir config. boleto"
+msgstr "Allow config. billet"
+
+#: View/Permissoes/Permitir.ctp:117
+msgid "Manter financeiro"
+msgstr "Maintain financial"
+
+#: View/Permissoes/Permitir.ctp:129
+msgid "Manter relatórios"
+msgstr "Maintain reports"
+
+#: View/Produtos/editar.ctp:59 View/Produtos/novo.ctp:58
+#: View/Produtos/visualizar.ctp:40
+msgid "Tipo"
+msgstr "Type"
+
+#: View/Produtos/editar.ctp:63 View/Produtos/novo.ctp:61
+msgid "Comida"
+msgstr "Food"
+
+#: View/Produtos/editar.ctp:65 View/Produtos/novo.ctp:62
+#: View/Produtos/visualizar.ctp:41
+msgid "Bebida"
+msgstr "Drink"
+
+#: View/Produtos/editar.ctp:72 View/Produtos/novo.ctp:68
+#: View/Produtos/visualizar.ctp:35
+msgid "Código de barras"
+msgstr "Barcode"
+
+#: View/Produtos/visualizar.ctp:41
+msgid "Comida "
+msgstr "Food"
+
+#: View/Proprietarios/editar.ctp:206 View/Vendedores/editar.ctp:292
+#: View/Vendedores/novo.ctp:283
+msgid "Informações de usuário"
+msgstr "User Information"
+
+#: View/Proprietarios/editar.ctp:213 View/Usuarios/login.ctp:63
+#: View/Vendas/visualizar.ctp:66 View/Vendedores/editar.ctp:299
+#: View/Vendedores/novo.ctp:289
+msgid "Email"
+msgstr "Email"
+
+#: View/Proprietarios/editar.ctp:222 View/Usuarios/login.ctp:71
+#: View/Vendedores/editar.ctp:308 View/Vendedores/novo.ctp:296
+msgid "Senha"
+msgstr "Password"
+
+#: View/Proprietarios/editar.ctp:224 View/Vendedores/editar.ctp:310
+msgid "Sua senha é"
+msgstr "Your password is"
+
+#: View/Relatorios/relatorios_clientes.ctp:143
+#: View/Relatorios/relatorios_produtos.ctp:61
+#: View/Relatorios/relatorios_vendas.ctp:157
+msgid "Registro"
+msgstr "Record"
+
+#: View/Relatorios/relatorios_produtos.ctp:92
+msgid "Quantidade disponível"
+msgstr "Quantity available"
+
+#: View/Relatorios/relatorios_produtos.ctp:106
+msgid "Quantidade vendido"
+msgstr "Quantity sold"
+
+#: View/Relatorios/relatorios_vendas.ctp:159 View/Vendas/listar.ctp:67
+msgid "Total"
+msgstr "Total"
+
+#: View/Usuarios/acesso_restrito.ctp:20
+msgid "Página anterior bloqueada, apenas o proprietário tem acesso"
+msgstr "Previous page locked, only the owner has access"
+
+#: View/Usuarios/login.ctp:76
+msgid "Esqueceu senha"
+msgstr "Forgot password"
+
+#: View/Usuarios/login.ctp:82
+msgid "Entrar"
+msgstr "Login"
+
+#: View/Vendas/listar.ctp:79 View/Vendas/novo.ctp:63
+msgid "Forma de pagamento"
+msgstr "Method of payment"
+
+#: View/Vendas/listar.ctp:120 View/Vendas/novo.ctp:130
+#: View/Vendas/visualizar.ctp:74
+msgid "Parcelas"
+msgstr "Plots"
+
+#: View/Vendas/novo.ctp:32
+msgid "Informações sobre venda"
+msgstr "Information on the sale"
+
+#: View/Vendas/novo.ctp:38
+msgid "Escolha cliente"
+msgstr "Customer choice"
+
+#: View/Vendas/novo.ctp:79
+msgid "Escolha produto"
+msgstr "Choose product"
+
+#: View/Vendas/novo.ctp:88 View/Vendas/visualizar.ctp:113
+msgid "Total venda"
+msgstr "Total sale"
+
+#: View/Vendas/novo.ctp:116
+msgid "Número de parcelas"
+msgstr "Number of plots"
+
+#: View/Vendas/novo.ctp:178
+msgid "vezes de"
+msgstr "times"
+
+#: View/Vendas/visualizar.ctp:30
+msgid "CPF"
+msgstr "CPF"
+
+#: View/Vendas/visualizar.ctp:109
+msgid "Data venda"
+msgstr "Sale date"
+
+#: View/Vendedores/novo.ctp:303
+msgid "Confirme Senha"
+msgstr "Confirm password"
+
+#~ msgid "Select. um estado antes"
+#~ msgstr "Select. a state before"
+
+#~ msgid "Listar vendas no mês"
+#~ msgstr "Sales list in the month"
+
+#~ msgid "Produtos mais vendidos"
+#~ msgstr "Popular products"
+
+#~ msgid "Relatório de clientes"
+#~ msgstr "Customers report"
+
+#, fuzzy
+#~ msgid "Excluisão concluída"
+#~ msgstr "Completed exclusion"
+
+#~ msgid "Finâncias"
+#~ msgstr "Finances"
+
+#, fuzzy
+#~ msgid "N�mero"
+#~ msgstr "Number"
+
+#~ msgid "Nome é obrigatório"
+#~ msgstr "Name is required"
+
+#~ msgid "Email informado já está em uso"
+#~ msgstr "Email entered is already in use"
+
+#~ msgid "Informe uma email válido"
+#~ msgstr "Enter a valid email address"
+
+#~ msgid "Email é obrigatório"
+#~ msgstr "Email is required"
+
+#~ msgid "CPF é obrigatório"
+#~ msgstr "CPF is required"
+
+#~ msgid "CPF é inválido"
+#~ msgstr "CPF is invalid"
+
+#~ msgid "CPF já está em uso"
+#~ msgstr "CPF entered is already in use"
+
+#~ msgid "Por favor, indique pelo menos {0} caracteres"
+#~ msgstr "Please enter at least {0} characters"
+
+#~ msgid "Telefone é obrigatório"
+#~ msgstr "Phone is required"
+
+#~ msgid "RG é obrigatório"
+#~ msgstr "RG is required"
+
+#~ msgid "Rua é obrigatório"
+#~ msgstr "Street is required"
+
+#~ msgid "Bairro é obrigatório"
+#~ msgstr "Neighborhood is required"
+
+#~ msgid "Cidade é obrigatório"
+#~ msgstr "City is required"
+
+#~ msgid "Senha é obrigatório"
+#~ msgstr "Password is required"
+
+#~ msgid "Por favor, indique pelo menos {0} caracteres."
+#~ msgstr "Please enter at least {0} characters."
+
+#~ msgid "No mínimo {0} letras"
+#~ msgstr "At least letters {0}"
+
+#~ msgid "Por favor, insira o mesmo valor novamente"
+#~ msgstr "Please enter the same value again"
